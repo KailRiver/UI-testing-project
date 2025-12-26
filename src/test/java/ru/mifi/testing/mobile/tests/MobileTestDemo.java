@@ -10,7 +10,7 @@ public class MobileTestDemo {
         System.out.println("\n=== Mobile Framework Test ===");
 
         // Проверяем что все файлы настроены
-        boolean configFilesExist = true; // Предполагаем что да
+        boolean configFilesExist = true;
 
         System.out.println("✓ Конфигурационные файлы созданы");
         System.out.println("✓ Page Objects для Wikipedia готовы");

@@ -15,7 +15,6 @@ public class WeatherMainPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
-    // Актуальные локаторы на основе отладки
     private final By body = By.tagName("body");
     private final By searchInput = By.cssSelector("input[type='search']");
     private final By searchSuggestions = By.cssSelector("ul.Suggest_list__2n_Ua li");
@@ -221,7 +220,6 @@ public class WeatherMainPage {
                     }
                 }
             } catch (Exception e) {
-                // Продолжаем пробовать другие селекторы
             }
         }
 

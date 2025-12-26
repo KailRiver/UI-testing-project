@@ -4,7 +4,6 @@
         <classes>
             <class name="ru.mifi.testing.web.tests.WeatherTests">
                 <methods>
-                    <!-- Стабильные тесты -->
                     <include name="testMainPageLoads"/>
                     <include name="testTemperatureDisplay"/>
                     <include name="testCityDetection"/>

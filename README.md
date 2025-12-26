@@ -82,6 +82,7 @@ mvn test -Dsurefire.suiteXmlFiles=testng-web.xml
 #### Запуск тестов:
 ```bash
 mvn test -Dtest=MobileTestDemo
+mvn test -Dtest=WikipediaMobileTests
 ```
 
 ### 5. Запуск всех тестов
